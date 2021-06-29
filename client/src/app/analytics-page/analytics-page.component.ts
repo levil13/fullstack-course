@@ -3,7 +3,7 @@ import {AnalyticsService} from "../shared/services/analytics.service";
 import {AbstractComponent} from "../abstract.component";
 import {takeUntil} from "rxjs/operators";
 import {ChartConfig} from "../shared/interfaces";
-import {Chart} from 'chart.js';
+import * as Chart from 'chart.js';
 
 @Component({
   selector: 'app-analytics-page',
@@ -66,7 +66,10 @@ export class AnalyticsPageComponent extends AbstractComponent implements AfterVi
         const orderCtx = this.ordersCanvasRef.nativeElement.getContext('2d');
         orderCtx.canvas.height = '300px';
 
+        // tslint:disable-next-line:no-unused-expression
         new Chart(gainCtx, createChartConfig(gainConfig));
+
+        // tslint:disable-next-line:no-unused-expression
         new Chart(orderCtx, createChartConfig(ordersConfig));
 
         this.pending = false;
