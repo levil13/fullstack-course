@@ -1,0 +1,22 @@
+<div class="page-title">
+  <h4>Analytics</h4>
+</div>
+
+<div [hidden]="pending">
+  <div class="average-price">
+    <p>Average <strong>{{average}}</strong></p>
+  </div>
+
+  <div class="analytics-block pb3">
+    <h5>Выручка</h5>
+    <canvas #gainCanvas></canvas>
+  </div>
+
+  <div class="analytics-block">
+    <h5>Заказы</h5>
+    <canvas #ordersCanvas></canvas>
+  </div>
+</div>
+
+<app-loader *ngIf="pending"></app-loader>
+

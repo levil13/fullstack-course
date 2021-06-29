@@ -1,0 +1,78 @@
+<div class="row">
+  <div class="col s12">
+    <div class="page-subtitle">
+      <h4>Positions:</h4>
+      <button class="waves-effect waves-light btn grey darken-1 btn-small modal-trigger"
+              data-target="modal"
+              (click)="onAddPositionClick()">
+        Add position
+      </button>
+    </div>
+
+    <div *ngIf="!loading; else loader">
+      <div *ngIf="!!positions?.length; else empty" class="collection">
+        <a *ngFor="let position of positions"
+           class="collection-item collection-item-icon"
+           (click)="onSelectPositionClick(position)">
+          <span>
+            {{position.name}} <strong>{{position.price}}</strong>
+          </span>
+          <span>
+            <i (click)="$event.stopPropagation(); onDeletePositionClick(position)" class="material-icons">delete</i>
+          </span>
+        </a>
+      </div>
+      <ng-template #empty>
+        <div class="center">There are no positions in this category</div>
+      </ng-template>
+    </div>
+    <ng-template #loader>
+      <app-loader></app-loader>
+    </ng-template>
+  </div>
+</div>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div #modal id="modal" class="modal">
+    <div class="modal-content">
+      <h4 class="mb1">Add position</h4>
+      <div class="input-field">
+        <input
+          formControlName="name"
+          id="pos-name"
+          type="text"
+          [ngClass]="{'invalid': FormUtils.isFormControlInvalid(form.get('name'))}">
+        <label for="pos-name">Name</label>
+        <span *ngIf="FormUtils.isFormControlInvalid(form.get('name'))"
+              class="helper-text red-text">
+          <span>{{getErrorMessage('name')}}</span>
+        </span>
+      </div>
+      <div class="input-field">
+        <input formControlName="price"
+               id="pos-cost"
+               type="text"
+               min="1"
+               [ngClass]="{'invalid': FormUtils.isFormControlInvalid(form.get('price'))}">
+        <label for="pos-cost">Price</label>
+        <span *ngIf="FormUtils.isFormControlInvalid(form.get('price'))"
+              class="helper-text red-text">
+          <span>{{getErrorMessage('price')}}</span>
+        </span>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button"
+              class="modal-action waves-effect waves-black btn-flat"
+              (click)="onCancel()"
+              [disabled]="form.disabled">
+        Cancel
+      </button>
+      <button type="submit"
+              class="modal-action btn waves-effect"
+              [disabled]="form.disabled || form.invalid">
+        Save
+      </button>
+    </div>
+  </div>
+</form>

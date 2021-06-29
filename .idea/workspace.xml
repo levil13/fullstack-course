@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3f9aef2-93dd-4ea3-a9ee-7ebd27f092e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1scsyQ8clnm4a8EXsKbJj8dMQqa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
+    <property name="js.linters.configure.manually.selectedtslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/tslint.json" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="C:\Users\Luxter\AppData\Roaming\npm\node_modules\tslint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="C:\Users\Luxter\IdeaProjects\FullStack\client\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Luxter\IdeaProjects\FullStack\client\src\theme" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Luxter\IdeaProjects\FullStack\client\src\app\shared\services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.server">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3f9aef2-93dd-4ea3-a9ee-7ebd27f092e7" name="Default Changelist" comment="" />
+      <created>1621183465374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621183465374</updated>
+      <workItem from="1621183467879" duration="661000" />
+      <workItem from="1621184161134" duration="734000" />
+      <workItem from="1621184917024" duration="2818000" />
+      <workItem from="1621317280481" duration="48000" />
+      <workItem from="1621362642809" duration="3519000" />
+      <workItem from="1621406292265" duration="4158000" />
+      <workItem from="1621515749341" duration="3889000" />
+      <workItem from="1621587896237" duration="1193000" />
+      <workItem from="1621616083247" duration="455000" />
+      <workItem from="1621748955887" duration="2144000" />
+      <workItem from="1621934926732" duration="613000" />
+      <workItem from="1622007321879" duration="4773000" />
+      <workItem from="1622110126841" duration="2384000" />
+      <workItem from="1622193578660" duration="36000" />
+      <workItem from="1622392578015" duration="2150000" />
+      <workItem from="1622466997164" duration="28000" />
+      <workItem from="1622561911222" duration="3593000" />
+      <workItem from="1622652863121" duration="627000" />
+      <workItem from="1622704215988" duration="1786000" />
+      <workItem from="1622806314297" duration="1190000" />
+      <workItem from="1622829812749" duration="2470000" />
+      <workItem from="1622896247207" duration="4330000" />
+      <workItem from="1623058389070" duration="5031000" />
+      <workItem from="1623150870519" duration="2929000" />
+      <workItem from="1623224262798" duration="4165000" />
+      <workItem from="1623315964922" duration="2979000" />
+      <workItem from="1623402312761" duration="1937000" />
+      <workItem from="1623404290031" duration="886000" />
+      <workItem from="1623405358436" duration="58000" />
+      <workItem from="1623405429140" duration="4275000" />
+      <workItem from="1623416419332" duration="1205000" />
+      <workItem from="1623489197626" duration="3000000" />
+      <workItem from="1623599751580" duration="1945000" />
+      <workItem from="1623694830676" duration="2280000" />
+      <workItem from="1623754752618" duration="1008000" />
+      <workItem from="1623858573359" duration="4648000" />
+      <workItem from="1623931536384" duration="1341000" />
+      <workItem from="1623943892715" duration="5586000" />
+      <workItem from="1624037898151" duration="598000" />
+      <workItem from="1624099764554" duration="1192000" />
+      <workItem from="1624122688402" duration="8410000" />
+      <workItem from="1624210958684" duration="599000" />
+      <workItem from="1624269808435" duration="3560000" />
+      <workItem from="1624288046632" duration="1647000" />
+      <workItem from="1624310539890" duration="3519000" />
+      <workItem from="1624376291926" duration="6856000" />
+      <workItem from="1624467034405" duration="2205000" />
+      <workItem from="1624530636409" duration="67000" />
+      <workItem from="1624546493197" duration="4199000" />
+      <workItem from="1624648649954" duration="3041000" />
+      <workItem from="1624891439409" duration="142000" />
+      <workItem from="1624891593381" duration="20000" />
+      <workItem from="1624969864127" duration="2580000" />
+      <workItem from="1624974777586" duration="904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
