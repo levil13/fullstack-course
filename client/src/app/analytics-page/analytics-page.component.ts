@@ -3,7 +3,7 @@ import {AnalyticsService} from "../shared/services/analytics.service";
 import {AbstractComponent} from "../abstract.component";
 import {takeUntil} from "rxjs/operators";
 import {ChartConfig} from "../shared/interfaces";
-import * as Chart from 'chart.js';
+import * as Chart from "chart.js";
 
 @Component({
   selector: 'app-analytics-page',
