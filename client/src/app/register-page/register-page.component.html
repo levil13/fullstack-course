@@ -2,7 +2,7 @@
       [formGroup]="form"
       (ngSubmit)="onSubmit()">
   <div class="card-content">
-    <span class="card-title">Создать аккаунт</span>
+    <span class="card-title">Sign Up</span>
     <div class="input-field">
       <input formControlName="email"
              id="email"
@@ -19,7 +19,7 @@
              id="password"
              type="password"
              [ngClass]="{'invalid': FormUtils.isFormControlInvalid(form.get('password'))}">
-      <label for="password">Пароль:</label>
+      <label for="password">Password:</label>
       <span *ngIf="FormUtils.isFormControlInvalid(form.get('password'))"
             class="helper-text red-text">
         <span>{{getErrorMessage('password')}}</span>
@@ -30,7 +30,7 @@
     <button class="modal-action btn waves-effect"
             [disabled]="form.invalid || form.disabled"
             type="submit">
-      Создать
+      Signup
     </button>
   </div>
 </form>
