@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f9aef2-93dd-4ea3-a9ee-7ebd27f092e7" name="Default Changelist" comment="" />
+    <list default="true" id="c3f9aef2-93dd-4ea3-a9ee-7ebd27f092e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,19 +64,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.server">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
@@ -129,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.server" />
         <item itemvalue="npm.start" />
       </list>
@@ -200,7 +190,8 @@
       <workItem from="1624891439409" duration="142000" />
       <workItem from="1624891593381" duration="20000" />
       <workItem from="1624969864127" duration="2580000" />
-      <workItem from="1624974777586" duration="3136000" />
+      <workItem from="1624974777586" duration="5126000" />
+      <workItem from="1625047391538" duration="638000" />
     </task>
     <servers />
   </component>
