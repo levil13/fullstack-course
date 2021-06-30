@@ -52,7 +52,7 @@
     <property name="node.js.selected.package.tslint" value="C:\Users\Luxter\AppData\Roaming\npm\node_modules\tslint" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\Luxter\IdeaProjects\FullStack\client\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -64,17 +64,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Heroku debugger">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
@@ -214,7 +203,9 @@
       <workItem from="1624891593381" duration="20000" />
       <workItem from="1624969864127" duration="2580000" />
       <workItem from="1624974777586" duration="5126000" />
-      <workItem from="1625047391538" duration="3385000" />
+      <workItem from="1625047391538" duration="4942000" />
+      <workItem from="1625073469781" duration="274000" />
+      <workItem from="1625073757680" duration="398000" />
     </task>
     <servers />
   </component>
@@ -232,7 +223,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/middleware/passport.js</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
