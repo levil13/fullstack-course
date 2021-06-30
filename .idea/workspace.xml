@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f9aef2-93dd-4ea3-a9ee-7ebd27f092e7" name="Default Changelist" comment="" />
+    <list default="true" id="c3f9aef2-93dd-4ea3-a9ee-7ebd27f092e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +50,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\Users\Luxter\AppData\Roaming\npm\node_modules\tslint" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
     <property name="ts.external.directory.path" value="C:\Users\Luxter\IdeaProjects\FullStack\client\node_modules\typescript\lib" />
@@ -60,8 +63,11 @@
       <recent name="C:\Users\Luxter\IdeaProjects\FullStack\client\src\app\shared\services" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="Node.js.Heroku debugger">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Heroku debugger" type="NodeJSConfigurationType" node-parameters="--inspect" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
@@ -114,6 +120,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Node.js.Heroku debugger" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.server" />
+      <item itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
@@ -188,7 +203,7 @@
       <workItem from="1624891593381" duration="20000" />
       <workItem from="1624969864127" duration="2580000" />
       <workItem from="1624974777586" duration="5126000" />
-      <workItem from="1625047391538" duration="969000" />
+      <workItem from="1625047391538" duration="1804000" />
     </task>
     <servers />
   </component>
